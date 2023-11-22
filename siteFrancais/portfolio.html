@@ -6,7 +6,7 @@
     <link href="css/fontStyles.css" rel="stylesheet" type="text/css" />
     <link href="css/basicStyles.css" rel="stylesheet" type="text/css" />
     <link href="css/contentStyles.css" rel="stylesheet" type="text/css" />
-    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>REFERENCIA INTERNATIONAL</title>
   </head>
 
@@ -18,6 +18,11 @@
     -->
     <script>
       $(window).load(function () {
+        var heightDefinition = $('#contentWhiteCanvasTexto').height() + 90;
+        $('#contentWhiteCanvas').css({ height: heightDefinition });
+        $('#contentWhiteCanvasImagem').css({ height: heightDefinition - 40 });
+        $('#contentWhiteCanvas').css({ display: 'block' });
+
         var menuWidthDefinition =
           $('#btMenuHome').width() +
           $('#btMenuAboutUs').width() +
@@ -30,13 +35,6 @@
         var menuWidthDefinition = (menuWidthDefinition - 1000) * -1;
         var menuWidthDefinition = menuWidthDefinition / 7;
         $('.btMenu').css({ 'margin-right': menuWidthDefinition - 1 });
-
-        var heightDefinition = $('#contentWhiteCanvasTexto').height();
-        $('#contentWhiteCanvasImagemTheTeam').css({ height: 932 });
-        if (heightDefinition < 421) {
-          $('#contentWhiteCanvas').css({ height: 452 });
-        }
-
         $('.btMenu').css({ display: 'block' });
         $('.btMenuMargemZero').css({ display: 'block' });
         $('#menuSub').css({ display: 'block' });
@@ -54,15 +52,17 @@
           <div id="idiomasBloco">
             <div id="idiomas">
               <div id="btEnglish" class="btIdiomas">
-                <p>english |</p>
+                <p><a href="../index.html">english |</a></p>
               </div>
               <div id="btFrancais" class="btIdiomas">
-                <p><a href="siteFrancais/index.html">français</a></p>
+                <p>
+                  français
+                  <!-- |</p> 
+                        </div>
+                        <div id="btItaliano" class="btIdiomas">
+                        <p><a href="../siteItaliano/index.html">italiano</a></p>  -->
+                </p>
               </div>
-              <!-- <div id="btItaliano" class="btIdiomas">
-                        <p><a href="siteItaliano/index.html">italiano</a></p> 
-                        
-                    </div>-->
             </div>
           </div>
           <div id="headerLogo">
@@ -84,12 +84,10 @@
                 <a href="investmentCriteria.html">our activity</a>
               </div>
               <div id="btMenuPartners" class="btMenu">
-                <p>the team</p>
+                <a href="theTeam.html">the team</a>
               </div>
               <div id="btMenuPortfolio" class="btMenu">
-                <a href="portfolioReferenciaInternationalII.html"
-                  >investment portfolio</a
-                >
+                <p>investment portfolio</p>
               </div>
               <div id="btMenuNews" class="btMenu">
                 <a href="news.html">news</a>
@@ -114,10 +112,9 @@
         <div id="content">
           <!--CONTENT | IMAGE //////////-->
           <div id="contentWhiteCanvas">
-            <div id="contentWhiteCanvasImagemTheTeam" style="height: 932px">
+            <div id="contentWhiteCanvasImagem">
               <p>imagem</p>
             </div>
-
             <div id="contentWhiteCanvasTexto">
               <h1>—André Bruère—</h1>
               <p>

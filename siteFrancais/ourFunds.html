@@ -6,7 +6,7 @@
     <link href="css/fontStyles.css" rel="stylesheet" type="text/css" />
     <link href="css/basicStyles.css" rel="stylesheet" type="text/css" />
     <link href="css/contentStyles.css" rel="stylesheet" type="text/css" />
-    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>REFERENCIA INTERNATIONAL</title>
   </head>
 
@@ -36,9 +36,9 @@
         $('#menuSub').css({ 'margin-left': subMenuWidthDefinition });
 
         var heightDefinition = $('#contentWhiteCanvasTexto').height();
-        $('#contentWhiteCanvasImagemOurActivity').css({ height: 462 });
-        if (heightDefinition < 412) {
-          $('#contentWhiteCanvas').css({ height: 452 });
+        $('#contentWhiteCanvasImagemOurActivity').css({ height: 302 });
+        if (heightDefinition < 421) {
+          $('#contentWhiteCanvas').css({ height: 342 });
         }
 
         $('.btMenu').css({ display: 'block' });
@@ -58,15 +58,17 @@
           <div id="idiomasBloco">
             <div id="idiomas">
               <div id="btEnglish" class="btIdiomas">
-                <p>english |</p>
+                <p><a href="../index.html">english |</a></p>
               </div>
               <div id="btFrancais" class="btIdiomas">
-                <p><a href="siteFrancais/index.html">français</a></p>
+                <p>
+                  français
+                  <!-- |</p> 
+                        </div>
+                        <div id="btItaliano" class="btIdiomas">
+                        <p><a href="../siteItaliano/index.html">italiano</a></p>  -->
+                </p>
               </div>
-              <!-- <div id="btItaliano" class="btIdiomas">
-                        <p><a href="siteItaliano/index.html">italiano</a></p> 
-                        
-                    </div>-->
             </div>
           </div>
           <div id="headerLogo">
@@ -82,21 +84,21 @@
                 <a href="index.html">home</a>
               </div>
               <div id="btMenuAboutUs" class="btMenu">
-                <a href="aboutUs.html">about us</a>
+                <a href="aboutUs.html">qui sommes-nous</a>
               </div>
               <div id="btMenuActivity" class="btMenu">
-                <p>our activity</p>
+                <p>notre activité</p>
               </div>
               <div id="btMenuPartners" class="btMenu">
-                <a href="theTeam.html">the team</a>
+                <a href="theTeam.html">l’équipe</a>
               </div>
               <div id="btMenuPortfolio" class="btMenu">
                 <a href="portfolioReferenciaInternationalII.html"
-                  >investment portfolio</a
+                  >portefeuille d’investissements</a
                 >
               </div>
               <div id="btMenuNews" class="btMenu">
-                <a href="news.html">news</a>
+                <a href="news.html">nouvelles</a>
               </div>
               <div id="btMenuContacts" class="btMenu">
                 <a href="contacts.html">contacts</a>
@@ -119,20 +121,22 @@
           <div id="menuBlocoSub">
             <div id="menuSub">
               <div id="subBtMenu01" class="subBtMenu">
-                <a href="investmentCriteria.html">Investment Criteria |</a>
+                <a href="investmentCriteria.html"
+                  >Critères d’investissements |</a
+                >
               </div>
-              <div id="subBtMenu02Ativo" class="subBtMenu">
+              <div id="subBtMenu02" class="subBtMenu">
                 <a href="workingWithManagementForSuccess.html"
-                  >Working With Management For Success |</a
+                  >Travailler avec les dirigeants pour réussir |</a
                 >
               </div>
               <div id="subBtMenu03" class="subBtMenu">
                 <a href="ourCommitmentToOurInvestors.html"
-                  >Our Commitment To Our Investors |</a
+                  >Notre engagement auprès de nos investisseurs |</a
                 >
               </div>
-              <div id="subBtMenu04" class="subBtMenu">
-                <a href="ourInvestmentVehicles.html">Our Investment Vehicles</a>
+              <div id="subBtMenu04Ativo" class="subBtMenu">
+                <a href="ourFunds.html">Nos Structures</a>
               </div>
             </div>
           </div>
@@ -152,37 +156,50 @@
               <p>imagem</p>
             </div>
             <div id="contentWhiteCanvasTexto">
-              <h1>—Working With Management For Success—</h1>
-              <p>
-                <br /><br />
-                Our focus is to identify opportunities in the consumer
-                discretionary sector where the business model can be adjusted to
-                gain market share or grow by developing new markets. In many
-                cases, the best opportunities arise with companies that are
-                ready to grow but that don't know how as operating in an
-                unfamiliar environment can be daunting and challenging for small
-                businesses.<br /><br />
-                Through the experience and the track record we bring, we can
-                help owners and managers better understand and grasp the
-                potential of transformation. Our partners aim to spend all the
-                time required helping the businesses we invest in to achieve
-                long-term sustainable growth. <br /><br />
-                Through years of managing businesses and establishing Referencia
-                International, we have developed an extensive international
-                network in the US, BRIC countries and in Europe, which is a real
-                asset to Referencia investee companies and allows them to
-                benefit from our international network for advice on branding,
-                design and marketing, to create new sales channels and to
-                develop strategies for growth. We can also help to improve
-                strategic planning, identify strengths and weaknesses and
-                optimise corporate structure to allow a business to grow to the
-                next level.<br /><br />
-                Because of the size of business we invest in, we believe that
-                this commitment will add real value and ensure that together
-                with managers and owners all parties work together for an
-                optimal exit. Our goal is to work together for success as
-                partners and not just as investors.
-              </p>
+              <h1>—Nos Structures—</h1>
+              <br /><br />
+              <div id="contentWhiteCanvasBloco">
+                <div id="RefI">
+                  <h1>—Referencia International I—</h1>
+                </div>
+                <div id="learnMore">
+                  <a href="portfolioReferenciaInternationalI.html"
+                    ><img
+                      src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"
+                  /></a>
+                </div>
+                <div id="refTextI">
+                  <p>
+                    <br />
+                    Referencia International I a été lancé en 2005 et a réalisé
+                    un total de 4 investissements dans le secteur de la
+                    consommation au Brésil et en Europe. Le fonds a été clôturé
+                    en 2011 après que le dernier investissement a été vendu.
+                  </p>
+                </div>
+              </div>
+
+              <br /><br />
+
+              <div id="contentWhiteCanvasBloco2">
+                <div id="Ref">
+                  <h1>—Referencia International Partners S.à r.l.—</h1>
+                </div>
+                <div id="learnMoreII">
+                  <a href="portfolioReferenciaInternationalII.html"
+                    ><img
+                      src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"
+                  /></a>
+                </div>
+                <div id="refTextI">
+                  <p>
+                    <br />
+                    La société Referencia International Partners S.à r.l. a été
+                    établie au Luxembourg en 2012 afin d'investir dans des
+                    sociétés de biens de consommation en France et en Italie.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

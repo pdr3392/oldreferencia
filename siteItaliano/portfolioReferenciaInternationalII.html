@@ -6,8 +6,7 @@
 	<link href="css/fontStyles.css" rel="stylesheet" type="text/css">
     <link href="css/basicStyles.css" rel="stylesheet" type="text/css">
     <link href="css/contentStyles.css" rel="stylesheet" type="text/css">
-    <link href="css/formContact.css" rel="stylesheet" type="text/css" media="screen" />
-    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>REFERENCIA INTERNATIONAL</title>
 </head>
 
@@ -37,7 +36,6 @@
 			$(".btMenu").css({"display":("block")});
 			$(".btMenuMargemZero").css({"display":("block")});
 			$("#menuSub").css({"display":("block")});
-			
 		});
 	</script>
     
@@ -46,28 +44,27 @@
         <!--HEADER WRAPPER //////////-->
         <!--HEADER WRAPPER //////////-->
 				
-        <div id="headerWrapper">
+		<div id="headerWrapper">
             
             <!--HEADER //////////-->       
-            <div id="header">
+        	<div id="header">
                 <div id="idiomasBloco">
-                    <div id="idiomas">
-                        <div id="btEnglish" class="btIdiomas">
-                        <p>english |</p> 
-                        </div>
-                        <div id="btFrancais" class="btIdiomas">
-                        <p><a href="siteFrancais/index.html">français</a></p> 
-                        </div>
-                        <!-- <div id="btItaliano" class="btIdiomas">
-                        <p><a href="siteItaliano/index.html">italiano</a></p> 
-                        
-                    </div>-->
+                	<div id="idiomas">
+                		<div id="btEnglish" class="btIdiomas">
+                		<p><a href="../index.html">english |</a> </p>
+                    	</div>
+                		<div id="btFrancais" class="btIdiomas">
+                		<p><a href="../siteFrancais/index.html">français |</a></p> 
+                    	</div>
+                		<div id="btItaliano" class="btIdiomas">
+                		<p>italiano</a></p> 
+                    </div>
                 </div>
+        	</div>
+            	<div id="headerLogo">
+            		<img src="_image/REFERNCIAINTERNATIONAL_logo.png" />                  
+               	</div>
             </div>
-            <div id="headerLogo">
-                <img src="_image/REFERNCIAINTERNATIONAL_logo.png" />                  
-            </div>
-        </div>
                                     
             <!--MENU //////////-->       
             <div id="Bloco">
@@ -77,35 +74,57 @@
 							<a href="index.html">home</a>
 						</div>
 						<div id="btMenuAboutUs" class="btMenu">
-							<a href="aboutUs.html">about us</a>
+							<a href="aboutUs.html">chi siamo</a>
 						</div>
 						<div id="btMenuActivity" class="btMenu">
-							<a href="investmentCriteria.html">our activity</a>
+							<a href="investmentCriteria.html">la nostra attività</a>
 						</div>
 						<div id="btMenuPartners" class="btMenu">
-							<a href="theTeam.html">the team</a>
+							<a href="theTeam.html">ll team</a>
 						</div>
 						<div  id="btMenuPortfolio" class="btMenu">
-							<a href="portfolioReferenciaInternationalII.html">investment portfolio</a>
+							<p>portfolio degli investimenti</p>
 						</div>
 						<div  id="btMenuNews" class="btMenu">
-							<a href="news.html">news</a>
+							<a href="news.html">notizie</a>
 						</div>
 						<div  id="btMenuContacts" class="btMenu">
-							<a href="contacts.html">contacts</a>
+							<a href="contacts.html">contatti</a>
 						</div>
 						<div  id="btMenuInvestor" class="btMenuMargemZero">
-							<p>investor area</p>
+							<a href="investorArea.html">investor area</a>
 						</div>            
 					</div>
 				</div>
 			</div>
 		</div>
-               
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
         
+        <!--SUB MENU WRAPPER //////////-->       
+        <!--SUB MENU WRAPPER //////////-->       
+        <!--SUB MENU WRAPPER //////////-->       
+		<div id="subMenuWrapper">
+        	<!--MENU //////////-->       
+            <div id="BlocoSub">
+				<div id="menuBlocoSub">
+            		<div id="menuSub">
+						<div id="subBtMenu01Ativo" class="subBtMenu">
+                            <a href="portfolioReferenciaInternationalII.html">Referencia International II |</a>
+                        </div>
+                        <div id="subBtMenu02" class="subBtMenu">
+                            <a href="portfolioReferenciaInternationalI.html">Referencia International I |</a>
+                        </div>
+                        <div id="subBtMenu03" class="subBtMenu">
+                            <a href="portfolioReferenciaInternational.html">Referencia International</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+        <!--CONTENT WRAPPER //////////-->
+        <!--CONTENT WRAPPER //////////-->
+        <!--CONTENT WRAPPER //////////-->
+
 		<div id="contentWrapper">
             
             <!--CONTENT //////////-->       
@@ -116,19 +135,31 @@
                     	<p>imagem</p>
                     </div>-->
                 	<div id="contentWhiteTexto">
-                    	
-                        <div id="sectionContainerFormElements">
-							<form name="contactform" method="post" action="?btEnviar">
-								<input id="contactFormSimple" type="text" name="formName" size="40" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'login':this.value;" value="login" class="shadowElementsFormObligatoryName"/>
-								<input id="contactFormSimple" type="text" name="formEmail" size="40" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'password':this.value;" value="password" class="shadowElementsFormObligatoryEmail"/>
-								<input type="hidden" name="submitted" value="1"> 
-								<input id="contactFormSubmit" name="btEnviar" type="submit" value="—ok—" class="shadowElementsFormMultiLine"/>
-							</form> 
-						</div> 
-                        
+                    	<div id="contentInterService">
+                    		<div id="logoInter">
+                        		<a href="http://www.thebigchallenge.com"> <img src="_image/REFERNCIAINTERNATIONAL_logo_big.png" /></a>
+                        	</div>
+                            
+                    		<div id="interTitle">
+                        		<h1>—SSAS Motivation Learning Company—</h1>
+                            </div>
+                                
+                            <div id="interTitleDescription">
+                        		<h1>Nazione: Francia</h1>
+                                <h1>Quota: 60%</h1> 
+                                <h1>Periodo di detenzione: 2012 - fino alla data attuale</h1>
+                            </div>    
+                    	</div>
+                        <div id="interText">
+                        		<p>
+                        		<br />
+                        		Detiene e gestisce il "Big Challenge", il grande concorso europeo di inglese in Francia, Germania, Austria e Spagna. Con oltre 600.000 partecipanti, il "Big Challenge" è la competizione motivazionale leader in Europa per gli studenti tra i 11 e i 14 anni per l'apprendimento della lingua inglese, con una partecipazione di massa sia nelle scuole pubbliche che private. Referencia è entrata come azionista nel gennaio 2012, per collaborare con il management nell’espansione di questo concorso a livello internazionale, sia nei contenuti che con la presenza su Internet.
+                        		</p>
+                        </div>
                 	</div>
             	 </div>
 			</div>
+           
         
         
         <!--FOOTER WRAPPER //////////-->
@@ -150,7 +181,7 @@
                 		<div id="designByBureau">
 		                	<a href="http://www.bureaubrasileiro.com.br">Bureau Brasileiro</a>
                         </div>
-                </div> -->    
+                </div> -->     
             </div>
          </div> 
     </div>
