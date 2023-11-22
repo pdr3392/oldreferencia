@@ -20,3 +20,6 @@ jobs:
           BRANCH: main # Deployment branch
           FOLDER: . # Deploys everything in the root directory
           CLEAN: true # Cleans up removed files
+
+      - name: List files
+        run: ls -R
