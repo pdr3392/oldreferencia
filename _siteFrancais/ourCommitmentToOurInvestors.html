@@ -1,185 +1,209 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name = "viewport" content = "width = 1100">
-	<link href="_css/fontStyles.css" rel="stylesheet" type="text/css">
-    <link href="_css/basicStyles.css" rel="stylesheet" type="text/css">
-    <link href="_css/contentStyles.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width = 1100" />
+    <link href="css/fontStyles.css" rel="stylesheet" type="text/css" />
+    <link href="css/basicStyles.css" rel="stylesheet" type="text/css" />
+    <link href="css/contentStyles.css" rel="stylesheet" type="text/css" />
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>REFERENCIA INTERNATIONAL</title>
-</head>
+  </head>
 
-<body>
-	
+  <body>
     <!-- 
     SCREEN ADJUSTMENTS //////////
     SCREEN ADJUSTMENTS //////////
     SCREEN ADJUSTMENTS //////////
     -->
-	<script>
-		
-		$(window).load(function() {
-			
-			var menuWidthDefinition = ($("#btMenuHome").width()+$("#btMenuAboutUs").width()+$("#btMenuActivity").width()+$("#btMenuPartners").width()+$("#btMenuPortfolio").width()+$("#btMenuNews").width()+$("#btMenuContacts").width()+$("#btMenuInvestor").width());
-			var menuWidthDefinition = ((menuWidthDefinition - (1000))*(-1));
-			var menuWidthDefinition = menuWidthDefinition/7;
-			$(".btMenu").css({"margin-right":(menuWidthDefinition-1)});
-			
-			var subMenuWidthDefinition = ($("#menuSub").width());
-			var subMenuWidthDefinition = ((subMenuWidthDefinition - (1000))/(-2));
-			$("#menuSub").css({"margin-left":(subMenuWidthDefinition)});
-			
-			var heightDefinition = (($("#contentWhiteCanvasTexto").height()));
-			$("#contentWhiteCanvasImagemOurActivity").css({"height":412});
-			if (heightDefinition<421){
-				$("#contentWhiteCanvas").css({"height":((452))});
-			}
-						
-			$(".btMenu").css({"display":("block")});
-			$(".btMenuMargemZero").css({"display":("block")});
-			$("#menuSub").css({"display":("block")});
-			
- 		});
-		
-	</script>
-    
-	<div id="containerEnvelope">
-    	<!--HEADER WRAPPER //////////-->
-        <!--HEADER WRAPPER //////////-->
-        <!--HEADER WRAPPER //////////-->
-				
-		<div id="headerWrapper">
-            
-            <!--HEADER //////////-->       
-            <div id="header">
-                <div id="idiomasBloco">
-                    <div id="idiomas">
-                        <div id="btEnglish" class="btIdiomas">
-                        <p><a href="../index.html">english |</a></p> 
-                        </div>
-                        <div id="btFrancais" class="btIdiomas">
-                        <p>français <!-- |</p> 
+    <script>
+      $(window).load(function () {
+        var menuWidthDefinition =
+          $('#btMenuHome').width() +
+          $('#btMenuAboutUs').width() +
+          $('#btMenuActivity').width() +
+          $('#btMenuPartners').width() +
+          $('#btMenuPortfolio').width() +
+          $('#btMenuNews').width() +
+          $('#btMenuContacts').width() +
+          $('#btMenuInvestor').width();
+        var menuWidthDefinition = (menuWidthDefinition - 1000) * -1;
+        var menuWidthDefinition = menuWidthDefinition / 7;
+        $('.btMenu').css({ 'margin-right': menuWidthDefinition - 1 });
+
+        var subMenuWidthDefinition = $('#menuSub').width();
+        var subMenuWidthDefinition = (subMenuWidthDefinition - 1000) / -2;
+        $('#menuSub').css({ 'margin-left': subMenuWidthDefinition });
+
+        var heightDefinition = $('#contentWhiteCanvasTexto').height();
+        $('#contentWhiteCanvasImagemOurActivity').css({ height: 412 });
+        if (heightDefinition < 421) {
+          $('#contentWhiteCanvas').css({ height: 452 });
+        }
+
+        $('.btMenu').css({ display: 'block' });
+        $('.btMenuMargemZero').css({ display: 'block' });
+        $('#menuSub').css({ display: 'block' });
+      });
+    </script>
+
+    <div id="containerEnvelope">
+      <!--HEADER WRAPPER //////////-->
+      <!--HEADER WRAPPER //////////-->
+      <!--HEADER WRAPPER //////////-->
+
+      <div id="headerWrapper">
+        <!--HEADER //////////-->
+        <div id="header">
+          <div id="idiomasBloco">
+            <div id="idiomas">
+              <div id="btEnglish" class="btIdiomas">
+                <p><a href="../index.html">english |</a></p>
+              </div>
+              <div id="btFrancais" class="btIdiomas">
+                <p>
+                  français
+                  <!-- |</p> 
                         </div>
                         <div id="btItaliano" class="btIdiomas">
                         <p><a href="../_siteItaliano/index.html">italiano</a></p>  -->
-                    </div>
-                </div>
+                </p>
+              </div>
             </div>
-            <div id="headerLogo">
-                <img src="_image/REFERNCIAINTERNATIONAL_logo.png" />                  
+          </div>
+          <div id="headerLogo">
+            <img src="_image/REFERNCIAINTERNATIONAL_logo.png" />
+          </div>
+        </div>
+
+        <!--MENU //////////-->
+        <div id="Bloco">
+          <div id="menuBloco">
+            <div id="menu">
+              <div id="btMenuHome" class="btMenu">
+                <a href="index.html">home</a>
+              </div>
+              <div id="btMenuAboutUs" class="btMenu">
+                <a href="aboutUs.html">qui sommes-nous</a>
+              </div>
+              <div id="btMenuActivity" class="btMenu">
+                <p>notre activité</p>
+              </div>
+              <div id="btMenuPartners" class="btMenu">
+                <a href="theTeam.html">l’équipe</a>
+              </div>
+              <div id="btMenuPortfolio" class="btMenu">
+                <a href="portfolioReferenciaInternationalII.html"
+                  >portefeuille d’investissements</a
+                >
+              </div>
+              <div id="btMenuNews" class="btMenu">
+                <a href="news.html">nouvelles</a>
+              </div>
+              <div id="btMenuContacts" class="btMenu">
+                <a href="contacts.html">contacts</a>
+              </div>
+              <div id="btMenuInvestor" class="btMenuMargemZero">
+                <a href="investorArea.html">investor area</a>
+              </div>
             </div>
+          </div>
         </div>
-                                    
-            <!--MENU //////////-->       
-            <div id="Bloco">
-				<div id="menuBloco">
-            		<div id="menu">
-						<div id="btMenuHome" class="btMenu">
-							<a href="index.html">home</a>
-						</div>
-						<div id="btMenuAboutUs" class="btMenu">
-							<a href="aboutUs.html">qui sommes-nous</a>
-						</div>
-						<div id="btMenuActivity" class="btMenu">
-							<p>notre activité</p>
-						</div>
-						<div id="btMenuPartners" class="btMenu">
-							<a href="theTeam.html">l’équipe</a>
-						</div>
-						<div  id="btMenuPortfolio" class="btMenu">
-							<a href="portfolioReferenciaInternationalII.html">portefeuille d’investissements</a>
-						</div>
-						<div  id="btMenuNews" class="btMenu">
-							<a href="news.html">nouvelles</a>
-						</div>
-						<div  id="btMenuContacts" class="btMenu">
-							<a href="contacts.html">contacts</a>
-						</div>
-						<div  id="btMenuInvestor" class="btMenuMargemZero">
-							<a href="investorArea.html">investor area</a>
-						</div>             
-					</div>
-				</div>
-			</div>
-		</div>
-        
-        <!--SUB MENU WRAPPER //////////-->       
-        <!--SUB MENU WRAPPER //////////-->       
-        <!--SUB MENU WRAPPER //////////-->  
-             
-		<div id="subMenuWrapper">
-        	<!--MENU //////////-->       
-            <div id="BlocoSub">
-				<div id="menuBlocoSub">
-            		<div id="menuSub">
-						<div id="subBtMenu01" class="subBtMenu">
-                            <a href="investmentCriteria.html">Critères d’investissements |</a>
-                        </div>
-                        <div id="subBtMenu02" class="subBtMenu">
-                            <a href="workingWithManagementForSuccess.html">Travailler avec les dirigeants pour réussir |</a>
-                        </div>
-                        <div id="subBtMenu03Ativo" class="subBtMenu">
-                            <a href="ourCommitmentToOurInvestors.html">Notre engagement auprès de nos investisseurs |</a>
-                        </div>
-                        <div id="subBtMenu04" class="subBtMenu">
-                            <a href="ourFunds.html">Nos Structures</a>
-                        </div>
-					</div>
-				</div>
-			</div>
+      </div>
+
+      <!--SUB MENU WRAPPER //////////-->
+      <!--SUB MENU WRAPPER //////////-->
+      <!--SUB MENU WRAPPER //////////-->
+
+      <div id="subMenuWrapper">
+        <!--MENU //////////-->
+        <div id="BlocoSub">
+          <div id="menuBlocoSub">
+            <div id="menuSub">
+              <div id="subBtMenu01" class="subBtMenu">
+                <a href="investmentCriteria.html"
+                  >Critères d’investissements |</a
+                >
+              </div>
+              <div id="subBtMenu02" class="subBtMenu">
+                <a href="workingWithManagementForSuccess.html"
+                  >Travailler avec les dirigeants pour réussir |</a
+                >
+              </div>
+              <div id="subBtMenu03Ativo" class="subBtMenu">
+                <a href="ourCommitmentToOurInvestors.html"
+                  >Notre engagement auprès de nos investisseurs |</a
+                >
+              </div>
+              <div id="subBtMenu04" class="subBtMenu">
+                <a href="ourFunds.html">Nos Structures</a>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
+      </div>
 
-		<div id="contentWrapper">
-            
-            <!--CONTENT //////////-->       
-			<div id="content">
-				<!--CONTENT | IMAGE //////////-->       
-            	<div id="contentWhiteCanvas">
-                	<div id="contentWhiteCanvasImagemOurActivity">
-                    	<p>imagem</p>
-                    </div>
-                	<div id="contentWhiteCanvasTexto">
-                        <h1>—Notre engagement auprès de nos investisseurs—</h1>
-                        <p>
-                        <br /><br />
-                       Nous sommes conscients que nos investisseurs ont durement travaillé pour générer le capital qu’ils nous confient.<br /><br />
-                        Notre Comité d'Investissements approuve toutes les décisions d’investissements importantes (décider quand réaliser ou se défaire des investissements) et est mis au point régulièrement sur la performance de nos investissements et sur toute autre information importante concernant Referencia International.<br /><br />
-                        Afin de s’assurer de notre intégrité et indépendance, la majorité des votes de notre Comité d’Investissements est réalisé par des membres extérieurs et non par nos partenaires.<br /><br />
-                        Nous nous engageons à fournir des rapports réguliers et en totale transparence à nos investisseurs, et étant une petite équipe, nous serons heureux de discuter ou de vous rencontrer afin de répondre à toutes les questions que vous pourriez avoir.<br /><br />
-                        Plus important encore, nous sommes entièrement dédiés au succès de nos investissements et aux retours sur investissements de nos investisseurs. Nos intérêts sont communs à ceux de nos investisseurs.
-                        </p>
-                    </div>               	
-               	 </div>
-            </div>                         
+      <!--CONTENT WRAPPER //////////-->
+      <!--CONTENT WRAPPER //////////-->
+      <!--CONTENT WRAPPER //////////-->
+
+      <div id="contentWrapper">
+        <!--CONTENT //////////-->
+        <div id="content">
+          <!--CONTENT | IMAGE //////////-->
+          <div id="contentWhiteCanvas">
+            <div id="contentWhiteCanvasImagemOurActivity">
+              <p>imagem</p>
+            </div>
+            <div id="contentWhiteCanvasTexto">
+              <h1>—Notre engagement auprès de nos investisseurs—</h1>
+              <p>
+                <br /><br />
+                Nous sommes conscients que nos investisseurs ont durement
+                travaillé pour générer le capital qu’ils nous confient.<br /><br />
+                Notre Comité d'Investissements approuve toutes les décisions
+                d’investissements importantes (décider quand réaliser ou se
+                défaire des investissements) et est mis au point régulièrement
+                sur la performance de nos investissements et sur toute autre
+                information importante concernant Referencia International.<br /><br />
+                Afin de s’assurer de notre intégrité et indépendance, la
+                majorité des votes de notre Comité d’Investissements est réalisé
+                par des membres extérieurs et non par nos partenaires.<br /><br />
+                Nous nous engageons à fournir des rapports réguliers et en
+                totale transparence à nos investisseurs, et étant une petite
+                équipe, nous serons heureux de discuter ou de vous rencontrer
+                afin de répondre à toutes les questions que vous pourriez
+                avoir.<br /><br />
+                Plus important encore, nous sommes entièrement dédiés au succès
+                de nos investissements et aux retours sur investissements de nos
+                investisseurs. Nos intérêts sont communs à ceux de nos
+                investisseurs.
+              </p>
+            </div>
+          </div>
         </div>
-        
-        <!--FOOTER WRAPPER //////////-->
-        <!--FOOTER WRAPPER //////////-->
-        <!--FOOTER WRAPPER //////////-->
-        			
-		<div id="footerWrapper">
+      </div>
 
-            <!--FOOTER //////////-->       
-        	<div id="footer">
+      <!--FOOTER WRAPPER //////////-->
+      <!--FOOTER WRAPPER //////////-->
+      <!--FOOTER WRAPPER //////////-->
 
-				<!--FOOTER | DIREITOS //////////-->       
-				<div id="direitos">
-                	<img src="_image/REFERNCIAINTERNATIONAL_footer_direitos.png" />
-                </div>   
-				<!--FOOTER | BUREAU //////////-->  
-                <!--     
+      <div id="footerWrapper">
+        <!--FOOTER //////////-->
+        <div id="footer">
+          <!--FOOTER | DIREITOS //////////-->
+          <div id="direitos">
+            <img src="_image/REFERNCIAINTERNATIONAL_footer_direitos.png" />
+          </div>
+          <!--FOOTER | BUREAU //////////-->
+          <!--     
                 <div id="bureau">
                 		<div id="designByBureau">
 		                	<a href="http://www.bureaubrasileiro.com.br">Bureau Brasileiro</a>
                         </div>
-                </div> -->     
-            </div>
-         </div> 
+                </div> -->
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

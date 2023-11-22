@@ -1,209 +1,226 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name = "viewport" content = "width = 1100">
-	<link href="_css/fontStyles.css" rel="stylesheet" type="text/css">
-    <link href="_css/basicStyles.css" rel="stylesheet" type="text/css">
-    <link href="_css/contentStyles.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width = 1100" />
+    <link href="css/fontStyles.css" rel="stylesheet" type="text/css" />
+    <link href="css/basicStyles.css" rel="stylesheet" type="text/css" />
+    <link href="css/contentStyles.css" rel="stylesheet" type="text/css" />
     <script src="//code.jquery.com/jquery-latest.js"></script>
     <title>REFERENCIA INTERNATIONAL</title>
-</head>
+  </head>
 
-<body>
-	
+  <body>
     <!-- 
     SCREEN ADJUSTMENTS //////////
     SCREEN ADJUSTMENTS //////////
     SCREEN ADJUSTMENTS //////////
     -->
-	<script>
-		
-		$(window).load(function() {
-			
-			var menuWidthDefinition = ($("#btMenuHome").width()+$("#btMenuAboutUs").width()+$("#btMenuActivity").width()+$("#btMenuPartners").width()+$("#btMenuPortfolio").width()+$("#btMenuNews").width()+$("#btMenuContacts").width()+$("#btMenuInvestor").width());
-			var menuWidthDefinition = ((menuWidthDefinition - (1000))*(-1));
-			var menuWidthDefinition = menuWidthDefinition/7;
-			$(".btMenu").css({"margin-right":(menuWidthDefinition-1)});
-			
-			var subMenuWidthDefinition = ($("#menuSub").width());
-			var subMenuWidthDefinition = ((subMenuWidthDefinition - (1000))/(-2));
-			$("#menuSub").css({"margin-left":(subMenuWidthDefinition)});
-			
-			var heightDefinition = (($("#contentWhiteCanvasTexto").height()));
-			$("#contentWhiteCanvasImagemOurActivity").css({"height":412});
-			if (heightDefinition<421){
-				$("#contentWhiteCanvas").css({"height":((452))});
-			}
-						
-			$(".btMenu").css({"display":("block")});
-			$(".btMenuMargemZero").css({"display":("block")});
-			$("#menuSub").css({"display":("block")});
-			
- 		});
-		
-	</script>
-    
-	<div id="containerEnvelope">
-    	<!--HEADER WRAPPER //////////-->
-        <!--HEADER WRAPPER //////////-->
-        <!--HEADER WRAPPER //////////-->
-				
-		<div id="headerWrapper">
-            
-            <!--HEADER //////////-->       
-        	<div id="header">
-                <div id="idiomasBloco">
-                	<div id="idiomas">
-                		<div id="btEnglish" class="btIdiomas">
-                		<p>english |</p> 
-                    	</div>
-                		<div id="btFrancais" class="btIdiomas">
-                		<p><a href="_siteFrancais/index.html">français |</a></p> 
-                    	</div>
-                		<div id="btItaliano" class="btIdiomas">
-                		<p><a href="_siteItaliano/index.html">italiano</a></p> 
-                    </div>
-                </div>
-        	</div>
-            	<div id="headerLogo">
-            		<img src="_image/REFERNCIAINTERNATIONAL_logo.png" />                  
-               	</div>
+    <script>
+      $(window).load(function () {
+        var menuWidthDefinition =
+          $('#btMenuHome').width() +
+          $('#btMenuAboutUs').width() +
+          $('#btMenuActivity').width() +
+          $('#btMenuPartners').width() +
+          $('#btMenuPortfolio').width() +
+          $('#btMenuNews').width() +
+          $('#btMenuContacts').width() +
+          $('#btMenuInvestor').width();
+        var menuWidthDefinition = (menuWidthDefinition - 1000) * -1;
+        var menuWidthDefinition = menuWidthDefinition / 7;
+        $('.btMenu').css({ 'margin-right': menuWidthDefinition - 1 });
+
+        var subMenuWidthDefinition = $('#menuSub').width();
+        var subMenuWidthDefinition = (subMenuWidthDefinition - 1000) / -2;
+        $('#menuSub').css({ 'margin-left': subMenuWidthDefinition });
+
+        var heightDefinition = $('#contentWhiteCanvasTexto').height();
+        $('#contentWhiteCanvasImagemOurActivity').css({ height: 412 });
+        if (heightDefinition < 421) {
+          $('#contentWhiteCanvas').css({ height: 452 });
+        }
+
+        $('.btMenu').css({ display: 'block' });
+        $('.btMenuMargemZero').css({ display: 'block' });
+        $('#menuSub').css({ display: 'block' });
+      });
+    </script>
+
+    <div id="containerEnvelope">
+      <!--HEADER WRAPPER //////////-->
+      <!--HEADER WRAPPER //////////-->
+      <!--HEADER WRAPPER //////////-->
+
+      <div id="headerWrapper">
+        <!--HEADER //////////-->
+        <div id="header">
+          <div id="idiomasBloco">
+            <div id="idiomas">
+              <div id="btEnglish" class="btIdiomas">
+                <p>english |</p>
+              </div>
+              <div id="btFrancais" class="btIdiomas">
+                <p><a href="_siteFrancais/index.html">français |</a></p>
+              </div>
+              <div id="btItaliano" class="btIdiomas">
+                <p><a href="_siteItaliano/index.html">italiano</a></p>
+              </div>
             </div>
-                                    
-            <!--MENU //////////-->       
-            <div id="Bloco">
-				<div id="menuBloco">
-            		<div id="menu">
-						<div id="btMenuHome" class="btMenu">
-							<a href="index.html">home</a>
-						</div>
-						<div id="btMenuAboutUs" class="btMenu">
-							<a href="aboutUs.html">about us</a>
-						</div>
-						<div id="btMenuActivity" class="btMenu">
-							<p>our activity</p>
-						</div>
-						<div id="btMenuPartners" class="btMenu">
-							<a href="theTeam.html">the team</a>
-						</div>
-						<div  id="btMenuPortfolio" class="btMenu">
-							<a href="portfolioReferenciaInternationalII.html">investment portfolio</a>
-						</div>
-						<div  id="btMenuNews" class="btMenu">
-							<a href="news.html">news</a>
-						</div>
-						<div  id="btMenuContacts" class="btMenu">
-							<a href="contacts.html">contacts</a>
-						</div>
-						<div  id="btMenuInvestor" class="btMenuMargemZero">
-							<a href="investorArea.html">investor area</a>
-						</div>              
-					</div>
-				</div>
-			</div>
-		</div>
-        
-        <!--SUB MENU WRAPPER //////////-->       
-        <!--SUB MENU WRAPPER //////////-->       
-        <!--SUB MENU WRAPPER //////////-->  
-             
-		<div id="subMenuWrapper">
-        	<!--MENU //////////-->       
-            <div id="BlocoSub">
-				<div id="menuBlocoSub">
-            		<div id="menuSub">
-						<div id="subBtMenu01" class="subBtMenu">
-                            <a href="investmentCriteria.html">Investment Criteria |</a>
-                        </div>
-                        <div id="subBtMenu02" class="subBtMenu">
-                            <a href="workingWithManagementForSuccess.html">Working With Management For Success |</a>
-                        </div>
-                        <div id="subBtMenu03" class="subBtMenu">
-                            <a href="ourCommitmentToOurInvestors.html">Our Commitment To Our Investors |</a>
-                        </div>
-                        <div id="subBtMenu04Ativo" class="subBtMenu">
-                            <a href="ourFunds.html">Our Funds</a>
-                        </div>
-					</div>
-				</div>
-			</div>
+          </div>
+          <div id="headerLogo">
+            <img src="_image/REFERNCIAINTERNATIONAL_logo.png" />
+          </div>
         </div>
-        
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
-        <!--CONTENT WRAPPER //////////-->
 
-		<div id="contentWrapper">
-            
-            <!--CONTENT //////////-->       
-			<div id="content">
-				<!--CONTENT | IMAGE //////////-->       
-            	<div id="contentWhiteCanvas">
-                	<div id="contentWhiteCanvasImagemOurActivity">
-                    	<p>imagem</p>
-                    </div>
-                	<div id="contentWhiteCanvasTexto">
-                    	<h1>—Our Funds—</h1>
-                        <br/><br />
-                        <div id="contentWhiteCanvasBloco">
-                        	<div id="RefI">
-                        		<h1>—Referencia International I—</h1>  
-                            </div>
-                            <div id="learnMore">
-                        	<a href="portfolioReferenciaInternationalI.html"><img src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"></a>
-                        	</div>
-                            <div id="refTextI">
-                        		<p>
-                        		<br />
-                        Referencia International I was launched in 2005 and made a total of 4 investments in the consumer sector in Brazil and in Europe. The fund was closed in 2011 after the last investment was successfully sold.
-                        		</p>
-                            </div>
-                       </div>
-
-                       <br /><br />
-                        
-                       <div id="contentWhiteCanvasBloco2">
-                        	<div id="Ref">
-                        		<h1>—Referencia International Investiments II—</h1>  
-                            </div>
-                            <div id="learnMoreII">
-                        	<a href="portfolioReferenciaInternationalII.html"><img src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"></a>
-                        	</div>
-                            <div id="refTextI">
-                        		<p>
-                        		<br />
-                        Referencia International is currently fund-raising for Referencia International Investments II. The fund will be investing in consumer goods and services companies in France and Italy.
-                        		</p>
-                            </div>
-                       </div>
-                    </div>               	
-               	 </div>
-            </div>                         
+        <!--MENU //////////-->
+        <div id="Bloco">
+          <div id="menuBloco">
+            <div id="menu">
+              <div id="btMenuHome" class="btMenu">
+                <a href="index.html">home</a>
+              </div>
+              <div id="btMenuAboutUs" class="btMenu">
+                <a href="aboutUs.html">about us</a>
+              </div>
+              <div id="btMenuActivity" class="btMenu">
+                <p>our activity</p>
+              </div>
+              <div id="btMenuPartners" class="btMenu">
+                <a href="theTeam.html">the team</a>
+              </div>
+              <div id="btMenuPortfolio" class="btMenu">
+                <a href="portfolioReferenciaInternationalII.html"
+                  >investment portfolio</a
+                >
+              </div>
+              <div id="btMenuNews" class="btMenu">
+                <a href="news.html">news</a>
+              </div>
+              <div id="btMenuContacts" class="btMenu">
+                <a href="contacts.html">contacts</a>
+              </div>
+              <div id="btMenuInvestor" class="btMenuMargemZero">
+                <a href="investorArea.html">investor area</a>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <!--FOOTER WRAPPER //////////-->
-        <!--FOOTER WRAPPER //////////-->
-        <!--FOOTER WRAPPER //////////-->
-        			
-		<div id="footerWrapper">
+      </div>
 
-            <!--FOOTER //////////-->       
-        	<div id="footer">
+      <!--SUB MENU WRAPPER //////////-->
+      <!--SUB MENU WRAPPER //////////-->
+      <!--SUB MENU WRAPPER //////////-->
 
-				<!--FOOTER | DIREITOS //////////-->       
-				<div id="direitos">
-                	<img src="_image/REFERNCIAINTERNATIONAL_footer_direitos.png" />
-                </div>   
-				<!--FOOTER | BUREAU //////////-->  
-                <!--     
+      <div id="subMenuWrapper">
+        <!--MENU //////////-->
+        <div id="BlocoSub">
+          <div id="menuBlocoSub">
+            <div id="menuSub">
+              <div id="subBtMenu01" class="subBtMenu">
+                <a href="investmentCriteria.html">Investment Criteria |</a>
+              </div>
+              <div id="subBtMenu02" class="subBtMenu">
+                <a href="workingWithManagementForSuccess.html"
+                  >Working With Management For Success |</a
+                >
+              </div>
+              <div id="subBtMenu03" class="subBtMenu">
+                <a href="ourCommitmentToOurInvestors.html"
+                  >Our Commitment To Our Investors |</a
+                >
+              </div>
+              <div id="subBtMenu04Ativo" class="subBtMenu">
+                <a href="ourFunds.html">Our Funds</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTENT WRAPPER //////////-->
+      <!--CONTENT WRAPPER //////////-->
+      <!--CONTENT WRAPPER //////////-->
+
+      <div id="contentWrapper">
+        <!--CONTENT //////////-->
+        <div id="content">
+          <!--CONTENT | IMAGE //////////-->
+          <div id="contentWhiteCanvas">
+            <div id="contentWhiteCanvasImagemOurActivity">
+              <p>imagem</p>
+            </div>
+            <div id="contentWhiteCanvasTexto">
+              <h1>—Our Funds—</h1>
+              <br /><br />
+              <div id="contentWhiteCanvasBloco">
+                <div id="RefI">
+                  <h1>—Referencia International I—</h1>
+                </div>
+                <div id="learnMore">
+                  <a href="portfolioReferenciaInternationalI.html"
+                    ><img
+                      src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"
+                  /></a>
+                </div>
+                <div id="refTextI">
+                  <p>
+                    <br />
+                    Referencia International I was launched in 2005 and made a
+                    total of 4 investments in the consumer sector in Brazil and
+                    in Europe. The fund was closed in 2011 after the last
+                    investment was successfully sold.
+                  </p>
+                </div>
+              </div>
+
+              <br /><br />
+
+              <div id="contentWhiteCanvasBloco2">
+                <div id="Ref">
+                  <h1>—Referencia International Investiments II—</h1>
+                </div>
+                <div id="learnMoreII">
+                  <a href="portfolioReferenciaInternationalII.html"
+                    ><img
+                      src="_image/REFERNCIAINTERNATIONAL_content_learnmore.png"
+                  /></a>
+                </div>
+                <div id="refTextI">
+                  <p>
+                    <br />
+                    Referencia International is currently fund-raising for
+                    Referencia International Investments II. The fund will be
+                    investing in consumer goods and services companies in France
+                    and Italy.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER WRAPPER //////////-->
+      <!--FOOTER WRAPPER //////////-->
+      <!--FOOTER WRAPPER //////////-->
+
+      <div id="footerWrapper">
+        <!--FOOTER //////////-->
+        <div id="footer">
+          <!--FOOTER | DIREITOS //////////-->
+          <div id="direitos">
+            <img src="_image/REFERNCIAINTERNATIONAL_footer_direitos.png" />
+          </div>
+          <!--FOOTER | BUREAU //////////-->
+          <!--     
                 <div id="bureau">
                 		<div id="designByBureau">
 		                	<a href="http://www.bureaubrasileiro.com.br">Bureau Brasileiro</a>
                         </div>
-                </div> -->     
-            </div>
-         </div> 
+                </div> -->
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
