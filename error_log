@@ -1,0 +1,12 @@
+[08-Feb-2023 22:46:34 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo.php on line 4
+[14-Feb-2023 13:06:28 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo.php on line 4
+[14-Feb-2023 13:43:22 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/cvnie567kprz/domains/referenciaint.com/html/phpinfo2.php on line 4

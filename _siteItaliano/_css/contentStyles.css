@@ -1,0 +1,1109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+CONTENT //////////
+CONTENT //////////
+CONTENT //////////
+*/
+
+#contentWrapper {
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+#content {
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:none;
+	border:0;
+	padding:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#contentWhiteCanvas{
+	background-color:#FFF;
+	width:1000px;
+	height:auto;
+	margin:0;
+	padding-top:20px;
+	border:0;
+	padding:0;
+}
+
+#contentWhiteCanvasImagemAboutUs{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:200px;
+	height:auto;
+	display:block;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_site_imagemVerticalAboutUs_120828_3.png);
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasImagemOurActivity{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:200px;
+	height:auto;
+	display:block;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_site_imagemVerticalOurActivity.png);
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasImagemTheTeam{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:200px;
+	height:auto;
+	display:block;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_site_imagemVerticalTheTeam.png);
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasImagemPortfolio{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:100px;
+	height:60px;
+	display:block;
+	float:left;
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasImagemNews{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:200px;
+	height:auto;
+	display:block;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_site_imagemVerticalNews.png);
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasImagemContacts{
+	position:absolute;
+	padding:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+	border:0;
+	width:200px;
+	height:auto;
+	display:block;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_site_imagemVerticalContacts.png);
+	text-indent:-9999px;
+}
+
+#contentWhiteCanvasTexto {
+	position:relative;
+	padding:0;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-right:40px;
+	margin-left:250px;
+	border:0;
+	width:700px;
+	height:auto;
+	display:block;
+}
+
+#contentWhiteCanvasSubtitulo {
+	position:absolute;
+	padding:0;
+	margin-right:40px;
+	border:0;
+	width:700px;
+	height:auto;
+	display:block;
+}
+
+#contentWhiteCanvasSubtitulo h1{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#666;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	*/
+	/**/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+    opacity: 0.95;
+	
+}
+
+#contentWhiteCanvasTexto h1{
+	position:absolute;
+	padding:0;
+	margin-right:40px;
+	border:0;
+	width:700px;
+	height:auto;
+	display:block;
+}
+
+#contentWhiteCanvas p{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#333;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	width:700px;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	*/
+	/**/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+    opacity: 0.95;
+	
+}
+
+#contentWhiteCanvas h1{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#FF3366;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	*/
+	/**/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+    opacity: 0.95;
+	
+}
+
+#contentWhiteCanvas h1 img{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	height:25px;
+	width:100px;
+	float:right;
+	position:relative;
+}
+
+#contentWhiteCanvas h2{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#666;
+	font-family:metaNormalCaps, Verdana, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	*/
+	/**/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+    opacity: 0.95;
+	
+}
+
+#contentWhiteCanvas a{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#666;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	*/
+	/**/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+    opacity: 0.95;
+	
+}
+
+/*
+CONTENT INVESTMENT //////////
+CONTENT INVESTMENT //////////
+CONTENT INVESTMENT //////////
+*/
+
+#contentCanvasWhite {
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:none;
+	border:0;
+	padding:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#contentCanvas{
+	background-color:#FFF;
+	width:1000px;
+	height:auto;
+	margin:0;
+	padding-top:20px;
+	padding-bottom:20px;
+	border:0;
+	padding:0;
+}
+
+
+#contentWhiteTexto {
+	padding:0;
+	padding-top:40px;
+	margin-right:40px;
+	margin-left:30px;
+	border:0;
+	width:930px;
+	height:auto;
+	display:block;
+}
+
+#contentWhiteTexto p{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#333;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:15px;
+	text-align:left;
+	width:930px;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	-webkit-text-stroke-width: 0.6px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+    opacity: 0.90;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	
+}
+
+#contentWhiteTexto h1{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#FF3366;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:15px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	-webkit-text-stroke-width: 0.6px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+    opacity: 0.90;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	
+}
+
+#contentWhiteTexto h1 img{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	height:25px;
+	width:100px;
+	float:right;
+	position:relative;
+}
+
+#contentWhiteTexto h2{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#666;
+	font-family:metaNormalCaps, Verdana, sans-serif;
+	font-size:14px;
+	letter-spacing:0.1em;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	-webkit-text-stroke-width: 0.6px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+    opacity: 0.90;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	
+}
+
+#contentWhiteTexto a{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#666;
+	font-family:metaNormal, Verdana, sans-serif;
+	font-size:15px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	-webkit-text-stroke-width: 0.6px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+    opacity: 0.90;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	
+}
+
+#newsSubtitulo {
+	position:absolute;
+	padding:0;
+	margin-right:40px;
+	border:0;
+	width:930px;
+	height:auto;
+	display:block;
+}
+
+#newsSubtitulo h1{
+	margin:0;
+	border:0;
+	padding:0;
+	display:block;
+	color:#FF3366;
+	font-family:metaBold, Verdana, sans-serif;
+	font-size:15px;
+	text-align:left;
+	/**/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: rotate(-0.0000000001deg);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+	-webkit-text-stroke: 1px transparent;
+	-webkit-text-stroke-width: 0.6px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+    opacity: 0.90;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+
+
+/*
+OUR FUNDS //////////
+OUR FUNDS //////////
+OUR FUNDS //////////
+*/
+
+#contentWhiteCanvasBloco1 {
+	height:100px;
+}
+
+#RefI {
+	width:350px;
+	height:25px;
+	position:relative;
+	display:inline;
+	padding-top:3px;
+}
+
+#RefI h1{
+	width:350;
+	height:25px;
+	position:absolute;
+	padding-top:3px;
+}
+
+#learnMore {
+	margin-left:260px;
+	width:100px;
+	position:relative;
+	height:25px;
+}
+
+#learnMore img{
+	padding-bottom:20px;
+	border:none;
+}
+
+#refTextI {
+	width:700px;
+	display:inline;
+	height:auto;
+}
+
+#contentWhiteCanvasBloco2{
+	height:100px;
+
+}
+
+#RefII {
+	width:auto;
+	height:30px;
+	position:absolute;
+	padding-top:3px;
+}
+
+#learnMoreII {
+	margin-left:385px;
+	width:100px;
+	position:relative;
+	height:25px;
+}
+
+#learnMoreII img{
+	padding-bottom:20px;
+	border:none;
+}
+
+#refTextII {
+	width:700px;
+	height:40px;
+}
+
+/*
+REFERENCIA INTER //////////
+REFERENCIA INTER //////////
+REFERENCIA INTER //////////
+*/
+
+#contentReebok {
+	width:930px;
+	height:100px;
+	margin:auto;
+}
+
+#logoReebok {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+
+}
+
+#logoReebok img {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	border:none;
+}
+
+#reebokTitle {
+	width:700px;
+	height:25px;
+	position:absolute;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#reebokTitleDescription {
+	width:700px;
+	height:75px;
+	position:absolute;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+#reebokTitleDescription h1{
+	color:#000;
+}
+
+
+#reebokText {
+	width:900px;
+	height:100px;
+}
+
+#reebokText p{
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+#faixaContentBloco1 {
+	width:1000px;
+	height:50px;
+	margin:auto;
+}
+
+#faixaContent1 {
+	width:1000px;
+	height:10px;
+	margin:auto;	
+
+}
+
+#faixa1 {
+	width:950px;
+	height:10px;
+	margin:auto;
+}
+
+#faixa1 img{
+	width:900px;
+	height:2px;
+	margin:auto;
+}
+
+#contentDupe {
+	width:930px;
+	height:40px;
+	margin:auto;
+}
+
+#logoDupe {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+
+}
+
+#logoDupe img {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	border:none;
+}
+
+#dupeTitle {
+	width:700px;
+	height:25px;
+	position:absolute;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#dupeTitleDescription {
+	width:700px;
+	height:75px;
+	position:absolute;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+#dupeTitleDescription h1{
+	color:#000;
+}
+
+#dupeText {
+	width:930px;
+	height:100px;
+}
+
+#dupeText p{
+	padding-top:60px;
+	padding-bottom:20px;
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+#faixaContentBloco2 {
+	width:1000px;
+	height:50px;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin:auto;
+}
+
+#faixaContent2 {
+	width:1000px;
+	height:2px;
+	margin:auto;	
+}
+
+#faixa2 {
+	width:950px;
+	height:2px;
+	padding-top:20px;
+	padding-bottom:30px;
+	margin:auto;
+}
+
+#faixa2 img{
+	width:900px;
+	height:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:auto;
+}
+
+#contentTania {
+	width:930px;
+	height:40px;
+	margin:auto;
+}
+
+#taniaDupe {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+
+}
+
+#logoTania img {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	border:none;	
+}
+
+#taniaTitle {
+	width:700px;
+	height:25px;
+	position:absolute;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#taniaTitleDescription {
+	width:700px;
+	height:75px;
+	position:absolute;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+#taniaTitleDescription h1{
+	color:#000;
+}
+
+#taniaText {
+	width:930px;
+	height:75px;
+}
+
+#taniaText p{
+	padding-top:60px;
+	padding-bottom:20px;
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+#faixaContentBloco3 {
+	width:1000px;
+	height:50px;
+	padding-bottom:30px;
+	padding-top:20px;
+	margin:auto;
+}
+
+#faixaContent3 {
+	width:1000px;
+	height:2px;
+	margin:auto;	
+}
+
+#faixa3 {
+	width:950px;
+	height:2px;
+	padding-top:50px;
+	padding-bottom:100px;
+	margin:auto;
+}
+
+#faixa3 img{
+	width:900px;
+	height:auto;
+	padding-top:20px;
+	padding-bottom:10px;
+	margin:auto;
+}
+
+#contentNextc {
+	width:930px;
+	height:40px;
+	margin:auto;
+	margin-top:30px;
+}
+
+#logoNextc {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+
+}
+
+#logoNextc img {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	border:none;	
+}
+
+#NextcTitle {
+	width:700px;
+	height:auto;
+	position:absolute;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#NextcTitleDescription {
+	width:700px;
+	height:auto;
+	position:absolute;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+#NextcTitleDescription h1{
+	color:#000;
+}
+
+#NextcText {
+	width:900px;
+	height:auto;
+}
+
+#NextcText p{
+	padding-top:60px;
+	padding-bottom:20px;
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+#contentInterService {
+	position:relative;
+	display:block;
+	width:930px;
+	height:auto;
+	margin:auto;
+	padding-bottom:40px;
+}
+
+#logoInter {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+
+}
+
+#logoInter img {
+	width:100px;
+	height:auto;
+	margin:0px;
+	position:absolute;
+	border:none;	
+}
+
+#interTitle {
+	width:700px;
+	height:auto;
+	position:absolute;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#interTitleDescription {
+	width:700px;
+	height:auto;
+	position:absolute;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+#interTitleDescription h1{
+	color:#000;
+}
+
+#interText {
+	width:930px;
+	height:auto;
+}
+
+#interText p{
+	padding-top:60px;
+	padding-bottom:20px;
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+#contentReebokMex {
+	display:block;
+	position:relative;
+	width:930px;
+	height:auto;
+	margin:auto;
+	padding-bottom:40px;
+}
+
+#logoReebokMex {
+	width:100px;
+	height:auto;
+	margin:0px;
+	position:absolute;
+	margin-bottom:40px;
+	display:block;
+
+}
+
+#logoReebokMex img {
+	width:100px;
+	height:60px;
+	margin:0px;
+	position:absolute;
+	border:none;	
+}
+
+#reebokMexTitle {
+	width:700px;
+	height:auto;
+	position:absolute;
+	display:block;
+	float:right;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+#rebookMexTitleDescription {
+	width:700px;
+	height:auto;
+	position:absolute;
+	display:block;
+	float:right;
+	margin-top:40px;
+	margin-left:150px;
+	
+}
+
+#rebookMexTitleDescription h1{
+	color:#000;
+}
+
+#reebokMexText {
+	width:930px;
+	height:auto;
+}
+
+#reebokMexText p{
+	padding-top:60px;
+	padding-bottom:20px;
+	width:930px;
+	height:auto;
+	text-align:justify;
+}
+
+/*
+HOME //////////
+HOME //////////
+HOME //////////
+*/
+
+#imageBanner img{
+	height:auto;
+}
+	
+#image {
+	position:absolute;
+	margin-top:25px;
+	margin-left:25px;
+	margin-bottom:25px;
+	padding:0;
+	border:0;
+	height:425px;
+	width:220px;
+	float:left;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_bannerHome.png);
+	background-repeat:no-repeat;
+}
+
+#imageBanner {
+	height:400px;
+}
+
+#faixa {
+	height: 45px;
+	width: 1000px;
+	margin: auto;
+	margin-top:20px;
+	padding-bottom:20px;
+}
+
+/*
+GENERAL CONTENT STYLES //////////
+GENERAL CONTENT STYLES //////////
+GENERAL CONTENT STYLES //////////
+*/
+
+
+
+/*
+SUBMENU //////////
+SUBMENU //////////
+SUBMENU //////////
+*/
+
+#subMenuBloco{
+	display:block;
+	margin:auto;
+	width:100%;
+	height:40px;
+	background-image:url(../_image/background_subMenu.png);
+	background-repeat:repeat;
+}
+
+#subMenu {
+	height:40px;
+	width:225px;
+	margin:auto;
+}
+
+.btsubMenu {
+	display:block;
+	background-repeat:no-repeat;
+	float:left;
+	overflow:hidden;
+	margin:auto;
+}
+
+#btSubmenuAboutUs a{
+	display:block;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_subMenu_aboutUs.png);
+	width:110px;
+	height:40px;
+	text-indent:-9999px;
+}
+
+#btSubmenuAboutUs a:hover{
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_subMenu_aboutUs.png);
+	background-position:0 -40px;	
+}
+
+#btSubmenuAboutUs p{
+
+}
+
+#btSubmenuHistory a{
+	display:block;
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_subMenu_history.png);
+	width:90px;
+	height:40px;
+	text-indent:-9999px;
+}
+
+#btSubmenuHistory a:hover{
+	background-image:url(../_image/REFERNCIAINTERNATIONAL_subMenu_history.png);
+	background-position:0 -40px;	
+}

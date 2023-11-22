@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contactform{
+	margin:0;
+	padding:0;
+	position:relative;
+	display:block;
+}
+
+input#contactFormSimple{
+	margin:0;
+	margin-bottom:20px;
+	padding:0;
+	border:0;
+	width:930px;
+	height:50px;
+	font-family:metaNormalCaps, Verdana, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	text-indent:10px;
+	color:#333;
+	text-align:left;
+}
+
+
+input#contactFormSubmit{
+	background-color:#666;
+	margin:0;
+	padding:0;
+	margin-bottom:20px;
+	border:0;
+	width:930px;
+	height:88px;
+	font-family:metaNormalCaps, Verdana, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	text-indent:10px;
+	color:#FFF;
+	font-size:20px;
+	letter-spacing:0.1em;
+	text-align:left;
+	border-color:#666;
+	text-align:center;
+}
+
+input#contactFormSubmitRetornar{
+	margin:0;
+	margin-top:20px;
+	margin-left:20px;
+	padding:0;
+	border:0;
+	width:690px;
+	height:335px;
+	font-family:metaNormalCaps, Verdana, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	text-indent:10px;
+	color:#FFF;
+	font-size:20px;
+	letter-spacing:0.1em;
+	text-align:left;
+	border-color:#666;
+	background-image:url(../_images/DAIRIX_site_elementosGraficos_btEnviarContato.png);
+	text-align:center;
+}
+
+.shadowElementsFormObligatoryName {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background:url(../_images/DAIRIX_site_elementosGraficos_formContato.png);
+	/*background-color:#FF9933;*/
+}
+
+.shadowElementsFormObligatoryEmail {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background:url(../_images/DAIRIX_site_elementosGraficos_formContato.png);
+	/*background-color:#FF9933;*/
+}
+
+.shadowElementsFormObligatoryEnterprise {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background:url(../_images/DAIRIX_site_elementosGraficos_formContato.png);
+	/*background-color:#FF9933;*/
+}
+
+.shadowElementsFormObligatoryTelephone {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background:url(../_images/DAIRIX_site_elementosGraficos_formContato.png);
+	/*background-color:#FF9933;*/
+}
+
+.shadowElementsFormSimple {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background:url(../_images/DAIRIX_site_elementosGraficos_formContato.png);
+	/*background-color:#FF9933;*/
+}
+
+.shadowElementsFormMultiLine {
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	background-image:url(../_images/DAIRIX_site_elementosGraficos_textareaContato.png);
+	/*background-color:#FF9933;*/
+}
