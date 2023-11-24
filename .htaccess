@@ -5,7 +5,7 @@ RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} referenciaint.com.bureaubrasileiro.com.br$
-RewriteRule ^(.*)$ "http://bureaubrasileiro.com.br/404" [R=301,L]
+RewriteRule ^(.*)$ "https://bureaubrasileiro.com.br/404" [R=301,L]
 </IfModule>
 # END ANSIBLE MANAGED BLOCK
 AddHandler application/x-httpd-alt-php73___lsphp .php
